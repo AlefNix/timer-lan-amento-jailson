@@ -4,7 +4,7 @@
 }
 
 html {
-  height: 100%;
+  height: 100vh;
 }
 
 body {
@@ -156,6 +156,16 @@ body.light-theme .buttons .button:hover {
     padding: 0;
   }
   .example .flipdown{
-    margin-left: -17px;
+    margin-left: -6px;
   }
+  .flipdown {
+    width: 300px;
+    height: 70px;
+  }
+  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after {
+    width: 27px;
+  }
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before, .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    left: 64px;
+}
 }
