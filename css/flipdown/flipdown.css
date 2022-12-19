@@ -286,7 +286,26 @@
     margin: 0;
     padding: 0;
   }
+  .example {
+    width: 100%;
+    height: 100% !important; 
+  }
   .example .flipdown{
-    margin-left: -20px;
+    margin-left: -18px !important;
+  }
+  .flipdown {
+    width: 280px !important;
+  }
+  .flipdown .rotor-group {
+    padding-right: 15px !important;
+  }
+  .flipdown .rotor-group:last-child {
+    padding-right: 0px !important;
+  }
+  flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before, .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    left: 60px !important;
+  }
+  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before, .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    left: 60px !important;
   }
 }
